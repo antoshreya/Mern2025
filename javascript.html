@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number">
+    <input type="submit"><br>
+    <button onClick ="myCheck()"> click here</button>
+    <h1>1</h1>
+    <h1>2</h1>
+    <h1>3</h1>
+    <input type ="hidden" value = 123/>
+    <script>
+        function myCheck(){
+            document.getElementById("one").innerHTML;
+        }
+
+       var tags= document.getElementsByTagName("h1");
+       console.log(tags[0].innerHTML)
+       for(i=0;i<tags.length;i++){
+        console.log(tags[i].innerHTML)
+       }
+         tags = document.getElementsByTagName("input");
+         console.log(tags[0].value);   
+    </script>
+</body>
+</html>

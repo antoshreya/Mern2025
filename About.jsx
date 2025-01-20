@@ -1,13 +1,8 @@
-
-import React from 'react';
-
-const About = () => {
-  return (
-    <div>
-      <h2>About Us</h2>
-      <p>We are a small team of developers building amazing things.</p>
-    </div>
-  );
-};
-
-export default About;
+function About(){
+    return(
+        <div>
+            <h1>Hello,AntoShreya N!</h1>
+        </div>
+    )
+  }
+  export default About;

@@ -1,13 +1,17 @@
-// src/components/Contact.jsx
-import React from 'react';
-
-const Contact = () => {
-  return (
-    <div>
-      <h2>Contact Information</h2>
-      <p>Email: contact@example.com</p>
-    </div>
-  );
-};
-
-export default Contact;
+import React from "react";
+import {useState} from 'react';
+const contact=()=>{
+    var [num,setNum]=useState(0)
+    function handleAdd(){
+        return setNum(num+1)
+    }
+    return(
+        <div>
+            <h2>Contact Me</h2>
+            <h3>This is a state example</h3>
+            <h4>Number is {num}</h4>
+            <button onClick={handleAdd}>+</button>
+        </div>
+    )
+}
+export default contact;

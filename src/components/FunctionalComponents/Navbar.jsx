@@ -1,38 +1,22 @@
-// import'../../css/Navbar.css';
-// import { Link } from 'react-router-dom';
+ import'../../css/Navbar.css';
+ import { Link } from 'react-router-dom';
 
-// const Navbar=()=>{
-//     return(
-//         <header>
-//         <nav>
-//             <ol>
-//                 <li><Link to='/' className="link">Home</Link></li>
-//                 <li><Link to='/about' className="link">About</Link></li>
-//                 <li><Link to='/gallery' className="link">Gallery</Link></li>
-//                 <li><Link to='/contact' className="link">Contact</Link></li>
-//                 <li><Link to='/signup 'className="link">SignUp</Link></li>
-//             </ol>
-//         </nav>
-//         </header>
-//     )
-// }
-// export default Navbar;
+ const Navbar=()=>{
+     return(
+         <header>
+         <nav>
+             <ol>
+                 <li><Link to='/' className="link">Home</Link></li>
+                 <li><Link to='/about' className="link">About</Link></li>
+                 <li><Link to='/gallery' className="link">Gallery</Link></li>
+                 <li><Link to='/contact' className="link">Contact</Link></li>
+                 <li><Link to='/signup 'className="link">SignUp</Link></li>
+             </ol>
+         </nav>
+         </header>
+     )
+ }
+ export default Navbar;
 
 
 
-import'../../css/Navbar.css';
-const Navbar=()=>{
-    return(
-        <header>
-        <nav>
-            <ol>
-                <li>Home</li>
-                <li>About</li>
-                <li>Gallery</li>
-                <li>Contact</li>
-            </ol>
-        </nav>
-        </header>
-    )
-}
-export default Navbar;

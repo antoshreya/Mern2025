@@ -24,6 +24,9 @@ const Navbar=()=>{
                         <li><Link to='/useapi 'className="link">UseEffect API</Link></li>
                         <li><Link to='/usereducer 'className="link">UseReducer</Link></li>
                         <li><Link to='/useimage 'className="link">UseEffect API Image</Link></li>
+                        <li><Link to='/use-ref 'className="link">Useref</Link></li>
+                        <li><Link to='/usememo 'className="link">UseMemo</Link></li>
+                        <li><Link to='/usecall 'className="link">UseCallback</Link></li>
                     </ul>)}
                 </div>
                 <li><Link to='/useapi 'className="link">UseEffect API</Link></li>
